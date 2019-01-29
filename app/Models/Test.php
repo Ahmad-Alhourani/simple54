@@ -72,7 +72,7 @@ class Test extends Model
      *
      * @return string
      */
-    public function getRouteKeyName()
+    public function getRouteKeyName12()
     {
         return 'id';
         print_r(["11"]);
