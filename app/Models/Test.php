@@ -48,7 +48,7 @@ class Test extends Model
      * @var array
      */
 
-    protected $fillable = ["name", "l_name", "email", "sms"];
+    protected $fillable = ["name", "l_name", "email", "sms1"];
 
     public $timestamps = false;
 
@@ -75,6 +75,7 @@ class Test extends Model
     public function getRouteKeyName()
     {
         return 'id';
+        print_r(["11"]);
     }
 
     // ***********************************************************
@@ -89,5 +90,8 @@ class Test extends Model
     // ***********************************************************
     // ***********************************************************
 
-
+    public function getTest1()
+    {
+        return 'id';
+    }
 }
