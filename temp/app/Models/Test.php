@@ -40,7 +40,7 @@ class Test extends Model
      * @var array
      */
 
-    protected $sortable = ["id", "name1", "l_name", "email"];
+    protected $sortable = ["id", "name", "l_name", "email"];
 
     /**
      * The attributes that are mass assignable.
@@ -48,11 +48,7 @@ class Test extends Model
      * @var array
      */
 
-<<<<<<< /home/x-lab/Desktop/projects/tests/Simple3/app/Models/Test.php
-    protected $fillable = ["name1", "l_name", "email", "sms"];
-=======
     protected $fillable = ["name", "l_name", "email", "sms1"];
->>>>>>> /home/x-lab/Desktop/projects/tests/Simple3/temp/app/Models/Test.php
 
     public $timestamps = false;
 
@@ -76,7 +72,7 @@ class Test extends Model
      *
      * @return string
      */
-    public function getRouteKeyName12()
+    public function getRouteKeyName()
     {
         return 'id';
         print_r(["11"]);
